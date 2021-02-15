@@ -11,7 +11,7 @@ const searchWeather = async () => {
     }
 }
 const updateWeather = updateData => {
-    console.log(updateData);
+
     const cityName = updateData.name;
     const currentTemp = Math.floor((updateData.main.temp - 273.15));
     const condition = updateData.weather[0].main;
